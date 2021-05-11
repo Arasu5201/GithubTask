@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GitHub</string>
+    <string name="service_agent_app">By Arasu</string>
+    <string name="no_issues">There is no issues found!</string>
+    <string name="no_comments">There is no comments found!</string>
+    <string name="no_internet_con">No internet connection</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="github_issue">Github Issues</string>
+    <string name="github_comments">Github Comments</string>
+</resources>

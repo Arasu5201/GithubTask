@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mSplash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layoutDescription="@xml/splash_scene"
+    tools:showPaths="true">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAppName"
+        style="@style/TextLargeWhite50"
+        android:layout_width="@dimen/dp_244"
+        android:layout_height="@dimen/dp_82"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
+        style="@style/TextMedium19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:fontFamily="@font/poppins_regular"
+        android:letterSpacing="0.1"
+        android:lineSpacingMultiplier="2.5"
+        android:text="@string/service_agent_app"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
